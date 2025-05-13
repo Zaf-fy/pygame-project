@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Report</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Project Report</h1>
+    </header>
+
+    <section class="creator-info">
+        <h2>Project Creator Details</h2>
+        <p><strong>Name:</strong> Mohamed Mushraf</p>
+        <p><strong>Project Name:</strong> Gaming Hub</p>
+        <p><strong>Start Date:</strong> October 7, 2024</p>
+        <p><strong>End Date:</strong> March 7, 2025</p>
+        <p><strong>View Project Details (PDF):</strong> 
+        <a href="project_details.pdf" target="_blank">Click here to view</a>
+
+</p>
+
+    </section>
+
+    <section class="project-details">
+        <h2>Project Details</h2>
+        <p> 1. This project is consisting of two python-based 2D games, shooting game and car game Developed using the pygame library, integrated with a SQL server 
+            database for player data Management. The shooting game is a space-themed shooter where the player controls a spaceship to Destroy incoming enemies, featuring 
+            dynamic scoring, sound effects, and a replay system. The car Game is a lane-based racing game where the layer avoids incoming vehicles, with increasing difficulty and 
+            collision detection. Both games utilize a database (GameDB) to store and retrieve player information, including username and password, high scores, enabling features 
+            like player authentication, high score tracking, and demonstrate core game development concepts such as sprite management, collision detection, and event 
+            handling, while showcasing database integration for data persistence and user management.<br>
+            2. The user interacts with the system through a seamless interface that provides access to multiple games and functionalities. The system requires the user to 
+               register through a signup process, creating a unique identity with a username and password, ensuring secure access. Upon successful login, the user is directed to a game 
+               selection screen, where they can choose between the Shooting Game and the Car Game. The user’s progress, such as high scores, is tracked and stored in the database, enabling 
+               personalized experiences. In the Shooting Game, the user controls a spaceship to eliminate enemies, while in the Car Game, the user navigates a car through traffic, 
+               avoiding collisions. Each game offers increasing difficulty levels, testing the user’s skills and reflexes. Real-time feedback is provided through score updates and game
+               over prompts. The system handles user inputs like arrow keys for movement and key presses for restarting the game after a loss. Additionally, the user’s performance is 
+               recorded, allowing high scores to be retrieved and updated automatically. The interface is designed to be intuitive, making the gaming experience smooth and engaging. The 
+               user benefits from a personalized profile, game progress tracking, and score management. Overall, the system offers a dynamic gaming experience where the user 
+               can seamlessly switch between games, challenge themselves, and improve their performance over time.<br>
+            3. For source code and assets: 
+               <a href="https://github.com/Zaf-fy/War-Spae-Game" target="_blank">
+               GitHub Repository
+</a>
+ </p>
+    </section>
+
+    <section class="gallery">
+    <h2>Game Images</h2>
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="images/img1.png" alt="Game Image 1">
+        </div>
+        <div class="slide fade">
+            <img src="images/img2.png" alt="Game Image 2">
+        </div>
+        <div class="slide fade">
+            <img src="images/img3.png" alt="Game Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="images/img4.png" alt="Game Image 4">
+        </div>
+        <div class="slide fade">
+            <img src="images/img5.png" alt="Game Image 5">
+        </div>
+        <div class="slide fade">
+            <img src="images/img6.png" alt="Game Image 5">
+        </div>
+    </div>
+</section>
+
+
+    <section class="screens">
+        <h2>Game Screens</h2>
+        <ul>
+            <li class="Screen-item">
+                <div class="media">
+                <strong>Login Screen</strong><br>
+                <center><img src="images/img3.png" alt="Login Screen"></center>
+                </div>
+                <div class="note">
+                    <p>1. This is the login screen where users enter their credentials to start the game. It was built using Pygame GUI elements.<br>
+                       2. Players must log in before starting the game. The system ensures that each player has a unique username<br> 
+                       3. User must enter a valid username that exists in the database to log in. If an incorrect username is entered, the system denies access.<br>
+                       4. After logging in, players are directed to the game selection screen.<br> 
+                       5. After login, the player's username is displayed on the selection screen. This ensures that each player knows they are logged into the correct account </p>
+                </div>
+            </li>
+            <li class="Screen-item">
+                <div class="media">
+                <strong>Signup Screen</strong><br>
+                <center><img src="images/img4.png" alt="signup Screen"></center>
+                </div>
+                <div class="note">
+                    <p>1. During signup, the system ensures that usernames are unique. If a username already exists, the user is prompted to choose a different one. </p>
+                </div>
+            </li>
+            
+            <li class="Screen-item">
+                <div class="media">
+                <strong>Main Screen</strong><br>
+                <center><img src="images/img5.png" alt="Main Screen"></center>
+                </div>
+                <div class="note">
+                    <p>1. The screen is designed to be simple and easy to navigate. Players can quickly select their desired game without confusion.<br>   
+                       2. Players can choose from different games, such as: Car Racing Game and Shooting Game<br>
+                       3. After selecting a game, the screen seamlessly transitions to the chosen game. If the player exits a game, they return to the selection screen instead of 
+restarting the application </p>
+                </div>
+            </li>
+
+            <li class="Screen-item">
+                <div class="media">
+                <strong>Database Screen</strong><br>
+                <center><img src="images/img6.png" alt="Main Screen"></center>
+                </div>
+                <div class="note">
+                    <p>1. SQL Server Management Studio (SSMS) is a software application used for configuring, managing, and administering all components within Microsoft 
+                          SQL Server. It combines a rich set of graphical tools and script editors that enhance the productivity of database developers and administrators.  </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="shoot-game">
+        <h2>Shooting Game Preview</h2>
+        <ul>
+            <li class="Screen-item">
+                <div class="media">
+                <strong>Shooting Game Play</strong><br>
+                <video width="320" height="240" controls>
+                    <source src="vidoes/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </div>
+                <div class="note">
+                    <p>1. The player controls a shooter (a spaceship, soldier, or any other character). Arrow keys or specific buttons are used to move the character. The shooting 
+                          action is triggered using a key (e.g., spacebar or mouse click).<br>
+                       2. The player must shoot and destroy them to gain points. Enemies appear at random locations on the screen. Their movement speed and behavior 
+                          increase as the game progresses. <br>
+                       3. The score increases each time the player shoots an enemy. The high score is saved to track the player's best performance. Scores are displayed on the 
+                          screen during the game. <br>
+                       4. If an enemy reaches the player’s position or collides with them, the game ends. If the player’s bullets hit an enemy, it gets destroyed.<br> 
+                       5. The game includes animated backgrounds (e.g., space, battlefield). Sound effects for shooting, explosions, and enemy movements enhance the experience. 
+                          Background music may be added for immersion.<br> 
+                       6. When exiting the game, the screen smoothly transitions back to the game selection screen. If the player sets a new high score, it is saved in the 
+                          database. </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="car-game">
+        <h2>Car Game Preview</h2>
+        <ul>
+            <li class="Screen-item">
+                <div class="media">
+                <strong>Car Game Play</strong><br>
+                <video width="320" height="240" controls>
+                    <source src="vidoes/video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </div>
+                <div class="note">
+                    <p>1. The player controls a car that moves on a multi-lane road. Arrow keys (Left/Right) are used to change lanes. The car remains on the road, avoiding 
+                          obstacles and other vehicles.<br> 
+                       2. Random enemy vehicles spawn on the road. The player's goal is to avoid crashing into other vehicles. The difficulty increases as speed and the 
+                          number of enemy vehicles rise <br>
+                       3. The player earns points for avoiding obstacles and surviving longer. Score increases as the game progresses. The high score is saved and displayed on 
+                          the screen.<br> 
+                       4. The game features moving lane markers to create a sense of speed. The background consists of roads, lane dividers, and edge markers. Vehicles 
+                          have smooth movement animations. <br>
+                       5. If the player’s car collides with another vehicle, the game ends. A crash animation is displayed upon collision. The game prompts the player to 
+                          restart or return to the selection screen.  </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Mohamed Mushraf. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
